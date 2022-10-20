@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED</title>
+</head>
+<body>
+    <h1>Resistência de um LED</h1>
+
+    <form>
+
+        <p>Tensão da fonte:</p>
+        <input type="number" id="tensaoFonte" required>
+        <p>Tensão do Led:</p>
+        <input type="number" id="tensaoLED" required>
+        <p>Corrente do LED (em MiliAmperes):</p>
+        <input type="number" id="corrente" required>
+
+    </form>
+
+    <p>Clique para fazer o calculo</p>
+    <input type="submit" id="calc" value="CALCULAR">
+
+    <h3 id="saida"></h3>
+
+    <script src="resistenciaLed.js"></script>
+
+</body>
+</html>
